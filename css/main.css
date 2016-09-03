@@ -1,3 +1,184 @@
+body {
+    margin: 60px auto;
+    padding: 2px;
+    background-color: #f0f0f0;
+    background-image: url(../img/bg.png);
+    /*
+    font-family: 'Source Sans Pro', sans-serif;
+	*/
+}
+
+nav {
+    border-bottom: 1px solid #d5d5d5;
+    margin: 10px auto;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    margin: 10px auto;
+}
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+    margin: 10px auto;
+}
+
+div.container {
+	margin: 20px auto 40px; 
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+i.fa {
+    font-size: 1em;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+i.fa-fw {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
+}
+
+header {
+    background-color: #f0f0f0;
+    background-image: url(../img/bg2X.png);
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    height: auto;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header img {
+    float: left;
+    height: 128px;
+    margin-right: 15px;
+    padding: 11px;
+}
+
+header li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+
+header ul {
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #f0f0f0;
+    background-color: #575757;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*THEME STARTS HERE*/
+
+.logo {
+	float: left;
+	background-color: #f0f0f0;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
+    width: 8em;
+    height: 7.2em;
+    margin: -20px 40px 20px 40px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+
+nav {
+	border-bottom: 1px solid #ffffff;
+	display: inline-block;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+
+nav ul {
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .ticker {
-	size: small;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+	border-top: 2px dotted #ffcccc;
+	border-bottom: 2px dotted #ffcccc;
+	width: 100%;
+	height: 2em;
+	margin-top: 40px;
+}
+
+section {
+	height: 30em;
+	width: 80%;
+	margin: 120px auto;
+}
+
+#resources {
+	background-color: rgba(255, 0, 0, 0.6);
+}
+#interview {
+	background-color: rgba(0, 255, 0, 0.6);
+}
+#feedback {
+	background-color: rgba(0, 0, 255, 0.6);
+}
+#aboutus {
+	background-color: rgba(255, 0, 255, 0.6);
 }
