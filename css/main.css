@@ -165,7 +165,8 @@ nav ul {
 }
 
 section {
-	height: 30em;
+	background-color: rgba(120, 120, 255, 0.5);
+	min-height: 30em;
 	width: 80%;
 	margin: 120px auto;
 	padding: 40x auto;
@@ -177,7 +178,6 @@ section h1, h2, h3, h4, h5, h6 {
 }
 
 #resources {
-	background-color: rgba(255, 0, 0, 0.2);
 }
 #interview {
 	background-color: rgba(0, 255, 0, 0.6);
