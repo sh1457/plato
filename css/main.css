@@ -168,6 +168,7 @@ section {
 	height: 30em;
 	width: 80%;
 	margin: 120px auto;
+	padding: 40x auto;
 }
 
 section h1, h2, h3, h4, h5, h6 {
@@ -176,7 +177,7 @@ section h1, h2, h3, h4, h5, h6 {
 }
 
 #resources {
-	background-color: rgba(255, 0, 0, 0.6);
+	background-color: rgba(255, 0, 0, 0.2);
 }
 #interview {
 	background-color: rgba(0, 255, 0, 0.6);
