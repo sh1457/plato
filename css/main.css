@@ -101,18 +101,6 @@ header img {
     padding: 11px;
 }
 
-.img { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
-}
-
-h2 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
-}
-
 header li {
     list-style-type: none;
     padding: 4px 0;
