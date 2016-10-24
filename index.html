@@ -32,20 +32,20 @@
 	<body>
 		<header>
 			<div class="logo">
-				<img src="img/Logo.png" title="Placement Tracker and Organizer (PLATO)" height="70px"/>
+				<img style="border:2px solid black; border-radius:20px;" src="img/Logo.png" title="Placement Tracker and Organizer (PLATO)" height="70px"/>
 				
 			</div>
 			<nav>
 				<ul>
 					<li><a href="#resources">Resources</a></li>
 					<li><a href="#interview">Interview</a></li>
-					<li><a href="#experiences">Experiences</a></li>
+					<li><a href="#companies_visited">Companies_Visited</a></li>
 					<li><a href="#aboutus">About Us</a></li>
 					
 				</ul>
 			</nav>
 			<div class="ticker">
-				<marquee behavior="scroll" onmouseover="this.stop()" onmouseout = "this.start()">Upcoming Companies / Interviews : <b><mark>Oxigen</mark></b> (postponed), <b><mark> CA Technologies</mark></b> on (20/10/16)</marquee>
+				<marquee behavior="scroll" onmouseover="this.stop()" onmouseout = "this.start()">Upcoming Companies / Interviews : <b><mark>Oxigen</mark></b> (postponed), <b><mark> Oracle</mark></b> on (24/10/16)</marquee>
 			</div>
 		</header>
 		<section id="resources">
@@ -101,23 +101,46 @@
 			<h4>PS</h4>
 				<p>&bull; Different companies may have different screening and selection rounds. </p>
 		</section>
-		<section id="experiences">
-			<h3>Experiences Section</h3>
+		<section id="companies_visited">
+			<h3>Companies_Visited</h3>
 			<p>Companies visited for 2017 batch : </p>
 				
-				<a href = "http://www.bosch.com/en/com/home/index.php"><img style="border:2px solid blue; " src="img/bosch.png" alt="bosch" height="70px"/></a>
-				<a href = "https://www.mu-sigma.com/"><img style="border:2px solid black; " src="img/musigma.jpg" alt="musigma" height="70px"/></a>
-				<a href = "https://www.cognizant.com/"><img style="border:2px solid blue; " src="img/cognizant.png" alt="cognizant" height="70px"/></a>
-				<a href = "http://www.sap.com/india/ms/sap-labs-india/about/overview.html"><img style="border:2px solid black; " src="img/saplabs.png" alt="sap" height="70px"/></a>
-				<a href = "http://www.sapient.com/en-us/careers.html"><img style="border:2px solid blue; " src="img/sapient.png" alt="sapient" height="70px"/></a>
-				<a href = "http://www.vantageagora.com/"><img style="border:2px solid black; " src="img/va.png" alt="va" height="70px"/></a>
-				<a href = "https://www.accenture.com/in-en"><img style="border:2px solid blue; " src="img/accenture.png" alt="accenture" height="70px"/></a>
-				<a href = "https://www.in.capgemini.com/"><img style="border:2px solid black; " src="img/capgemini.jpg" alt="capgemini" height="70px"/></a>
-				<a href = "https://www.epsilon.com/en_IN/home.html"><img style="border:2px solid blue; " src="img/epsilon.png" alt="epsilon" height="70px"/></a>
-				<a href = "http://www.danskeit.co.in/en-in/Pages/default.aspx"><img style="border:2px solid black; " src="img/danskeit.png" alt="danskeit" height="70px"/></a>
-				<a href = "https://www.aciworldwide.com/about-aci"><img style="border:2px solid blue; " src="img/aci.png" alt="aci" height="70px"/></a>
-				<a href = "http://www.ey.com/"><img style="border:2px solid black; " src="img/ey.png" alt="ey" height="70px"/></a>
+				<div class="w3-content w3-section" style="max-width:150px">
+				  
+					<img style="border: 2px solid red;" class="mySlides w3-animate-fading" src="img/accenture.png" style="width:100%;height:70px;">
+					<img class="mySlides w3-animate-fading" style="border:2px solid black;" src="img/musigma.jpg" style="width:100%;height:70px;">
+					<img class="mySlides w3-animate-fading" style="border:2px solid red;" src="img/capgemini.jpg" style="width:100%;height:70px;">
+					<img class="mySlides w3-animate-fading" style="border:2px solid blue;" src="img/aci.png" style="width:100%">
+					<img class="mySlides w3-animate-fading" style="border:2px solid red; " src="img/bosch.png" alt="bosch" width="130%" height="170px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid blue; " src="img/cognizant.png" alt="cognizant" height="70px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid black; " src="img/saplabs.png" alt="sap" width="130%" height="170px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid blue; " src="img/sapient.png" alt="sapient" height="70px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid black; " src="img/va.png" alt="va" height="70px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid red; " src="img/hul.gif" alt="HUL" height="70px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid blue; " src="img/epsilon.png" alt="epsilon" height="70px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid black; " src="img/danskeit.png" alt="danskeit" height="70px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid blue; " src="img/ey.png" alt="ey" height="70px"/>
+					<img class="mySlides w3-animate-fading" style="border:2px solid red; " src="img/oracle.png" alt="oracle" height="70px"/>
+				</div>
+					
+				<script>
+				var myIndex = 0;
+				carousel();
 
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}
+					x[myIndex-1].style.display = "block";
+					setTimeout(carousel, 4500);
+				}
+				</script>
+				
+			<p>And the list keeps increasing.</p>	
 		</section>
 		<section id="aboutus">
 			<p>About Us</p>
