@@ -81,7 +81,7 @@ hr {
 
 header {
     background-color: #f0f0f0;
-    background-image: url(../img/bg2X.png);
+    background-image: url(../img/bg-top.jpg);
     border-bottom: 1px solid #dddddd;
     box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
     position: fixed;
@@ -125,7 +125,8 @@ footer {
 .logo {
 	float: left;
 	background-color: #f0f0f0;
-    border: 1px solid #ffffff;
+    border: 1.5px solid #ffffff;
+    border-radius:20px;
     box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
     width: 8em;
     height: 7.2em;
@@ -177,16 +178,14 @@ section h1, h2, h3, h4, h5, h6 {
 	text-decoration: underline;
 }
 
-#resources {
-}
-#interview {
-	min-height: 40em;
-	background-color: rgba(0, 255, 0, 0.6);
+#resource {
 }
 
-#experiences {
-	background-color: rgba(0, 0, 255, 0.6);
+#timeline {
 }
+
 #aboutus {
+    float: left;
+    display: none;
 	background-color: rgba(255, 0, 255, 0.6);
 }

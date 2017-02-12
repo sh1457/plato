@@ -1,1 +1,27 @@
+# Site settings
+title: Plato
+description: Placement Tracker and Organizer
+favicon: /assets/img/favicon.ico
+baseurl: https://sh1457.github.io/plato
+url: https://sh1457.github.io/plato
+rss_url: /blog/atom.xml
+
+# Build settings
 theme: jekyll-theme-slate
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+# Google Analytics
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-123-12'
+  getclicky :
+    site_id :
+
+exclude: [vendor]
+
+# Author settings
+author:
+  name: 4S
+  link: http://sh1457@github.io/plato
