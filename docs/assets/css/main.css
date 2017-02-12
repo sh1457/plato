@@ -80,9 +80,11 @@ hr {
 
 header {
     background-color: #f0f0f0;
-    background-image: url(../img/bg-top.jpg);
+    background-image: url(../img/bg-top-dark.jpg);
+    color: #fff;
     border-bottom: 1px solid #dddddd;
     box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
+    text-decoration: none;
 }
 
 header img {
@@ -149,13 +151,13 @@ nav ul {
 }
 
 .ticker {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
-	border-top: 2px dotted #ffcccc;
-	border-bottom: 2px dotted #ffcccc;
+    background-color: rgba(125, 0, 0, 0.4);
+    color: #101010;
+    padding: 2px;
+	border-top: 2px dashed #ffcccc;
+	border-bottom: 2px dashed #ffcccc;
 	width: 100%;
-	height: 2em;
-	margin-top: 40px;
+	height: 4em;
 }
 
 section h1, h2, h3, h4, h5, h6 {
@@ -172,7 +174,8 @@ section h1, h2, h3, h4, h5, h6 {
 #aboutus {
     float: left;
     display: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-	background-color: rgba(100, 100, 100, 0.6);
+    background-color: rgba(125, 125, 125, 0.6);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
 }
