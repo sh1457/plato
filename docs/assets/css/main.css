@@ -103,8 +103,9 @@ header ul {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
+    width: 100%;
     text-align: center;
     color: #f0f0f0;
     background-color: #575757;
