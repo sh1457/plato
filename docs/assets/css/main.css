@@ -14,7 +14,8 @@ nav {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    margin: 10px auto;
+    padding: 2px;
+    margin: 2px auto;
 }
 
 nav ul, footer ul {
@@ -128,17 +129,17 @@ footer {
 .logo img {
 	width: 100%;
 	height: auto;
-	padding: 0;
+	padding: 5px;
 }
 
 nav {
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #000000;
 	display: inline-block;
 }
 
 nav li {
     list-style-type: none;
-    padding: 4px 0;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -179,5 +180,6 @@ section h1, h2, h3, h4, h5, h6 {
 #aboutus {
     float: left;
     display: none;
-	background-color: rgba(255, 0, 255, 0.6);
+    border: 1px solid silver;
+	background-color: rgba(100, 100, 100, 0.6);
 }
