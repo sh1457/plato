@@ -151,8 +151,9 @@ nav ul {
 }
 
 .ticker {
-    background-color: rgba(125, 0, 0, 0.4);
-    color: #101010;
+    background-color: rgba(16, 16, 16, 0.8);
+    color: #f0f0f0;
+    font-size: 3.5em;
     padding: 2px;
 	border-top: 2px dashed #ffcccc;
 	border-bottom: 2px dashed #ffcccc;
