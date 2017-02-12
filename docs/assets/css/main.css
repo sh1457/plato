@@ -82,14 +82,6 @@ header {
     background-image: url(../img/bg-top.jpg);
     border-bottom: 1px solid #dddddd;
     box-shadow: 0 0 3px rgba(190, 190, 190, 0.75);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    height: auto;
-    padding: 20px 0;
-    margin-bottom: 20px;
 }
 
 header img {
@@ -111,6 +103,9 @@ header ul {
 }
 
 footer {
+    position: absolute;
+    bottom: 0px;
+    max-height: 10%;
     padding: 10px 0;
     text-align: center;
     color: #f0f0f0;
