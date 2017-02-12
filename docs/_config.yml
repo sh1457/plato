@@ -4,20 +4,21 @@ description: Placement Tracker and Organizer
 favicon: /assets/img/favicon.ico
 baseurl: https://sh1457.github.io/plato
 url: https://sh1457.github.io/plato
-rss_url: /blog/atom.xml
+rss_url: atom.xml
 
 # Build settings
 theme: jekyll-theme-slate
+timezone: Asia/Kolkata
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 
 # Google Analytics
-analytics :
-  provider : google
-  google : 
-      tracking_id : 'UA-123-12'
-  getclicky :
-    site_id :
+#analytics :
+#  provider : google
+#  google : 
+#      tracking_id : 'UA-123-12'
+#  getclicky :
+#    site_id :
 
 exclude: [vendor]
 
