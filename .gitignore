@@ -1,0 +1,7 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+P17.sublime-project
+P17.sublime-workspace
+*.eml
+*.txt

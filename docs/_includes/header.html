@@ -1,0 +1,44 @@
+<div class="header">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-sm-4">
+                <img src="{{ site.baseurl }}/assets/img/avatar.jpg" title="Avatar" alt="My Avatar">
+                <h4>{{ site.author.name }}</h4>
+                <p>{{ site.author.title }}</p>
+                <p class="muted">{{ site.author.address }}</p>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
+                <a href="" data-toggle="tooltip" title="{{ site.author.email }}">
+                    <i class="fa fa-envelope fa-fw"></i>
+                </a>
+                <a href="https://www.facebook.com/{{ site.author.facebook }} " data-toggle="tooltip" title="facebook.com/{{ site.author.facebook }}" target="_blank">
+                    <i class="fa fa-facebook-official fa-fw"></i>
+                </a>
+                <a href="https://plus.google.com/{{ site.author.googleplus }}" data-toggle="tooltip" title="{{ site.author.googleplus }}" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i>
+                </a>
+                <a href="https://twitter.com/{{ site.author.twitter }}" data-toggle="tooltip" title="@{{ site.author.twitter }}" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i>
+                </a>
+                <a href="https://www.instagram.com/{{ site.author.instagram }}" data-toggle="tooltip" title="instagram.com/{{ site.author.instagram }}" target="_blank">
+                    <i class="fa fa-instagram fa-fw"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" data-toggle="tooltip" title="linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
+                    <i class="fa fa-linkedin-square fa-fw"></i>
+                </a>
+                <a href="https://github.com/{{ site.author.github }}" data-toggle="tooltip" title="@{{ site.author.github }}" target="_blank">
+                    <i class="fa fa-github fa-fw"></i>
+                </a>
+                <a href="http://sh1457.github.io/blog/atom.xml" data-toggle="tooltip" title="@{{ site.author.github }}" target="_blank">
+                    <i class="fa fa-rss-square fa-fw"></i>
+                </a>
+            </div>
+
+            <div class="col-sm-4 visible-md-block visible-lg-block">
+                <a href="#" class="btn btn-dark"><i class="icon-file icon-white"></i> Download.pdf </a>
+            </div>
+        </div>
+    </div>
+</div>
