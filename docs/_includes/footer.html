@@ -1,11 +1,9 @@
 <footer>
 	<div class="container-fluid">
 		<div class="row-fluid ticker">
-				<div class="col-md-12 ticker">
-				<marquee behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()">
-					Upcoming Companies : <b><mark>Oxigen</mark></b>
-				</marquee>
-			</div>
+			<marquee behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+				Upcoming Companies : <b><mark>Oxigen</mark></b>
+			</marquee>
 		</div>
 		<div class="row-fluid">
 			<div class="col-md-12">
@@ -14,5 +12,5 @@
 		</div>
 	</div>
 </footer>
-<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
